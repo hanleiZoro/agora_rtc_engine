@@ -326,7 +326,7 @@ class AgoraRtcEngine {
   ///
   /// The SDK returns the current video state in this callback.
   static void Function(
-          LocalVideoStreamState localVideoState, LocalVideoStreamError error)
+          int localVideoState, int error)
       onLocalVideoStateChanged;
 
   /// Occurs when the remote audio stream state changes.
